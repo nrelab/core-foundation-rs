@@ -34,7 +34,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-13, macos-14, macos-15]
+        os: [macos-15-intel, macos-14, macos-15]
         toolchain: [stable]
         include:
           - os: macos-14
