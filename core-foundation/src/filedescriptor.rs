@@ -134,6 +134,7 @@ mod test {
     }
 
     #[test]
+    #[allow(unused_assignments)]
     fn test_callback() {
         let mut info = TestInfo { value: 0 };
         let context = CFFileDescriptorContext {
